@@ -40,12 +40,11 @@ Right now, this shader is going to set you back $5. One time, or if you want bet
 I am no relation. But there's a Discord for people playing with using this RTGI shader in all kinds of games and sharing their results.
 Strong recommend.
 
-**Special considerations and installation**
+**SETUP**
 
-1. Have an NVIDIA RTX card. AFAIK this only works on an RTX card.
-1a. All of this is info provided as-is and use at your own risk. Not sure what all the risks are, so that's why I said that.
+1. Have an NVIDIA RTX card. AFAIK this only works on an RTX card. All of this is info provided as-is and use at your own risk. Not sure what all the risks are, so that's why I said that.
 
-2. Just download this: I have included all the shaders except the following one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
+2. Just download this: I have included all the shaders except the RTGlobalIllumination one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
 
 3. Download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
 
