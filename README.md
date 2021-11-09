@@ -21,17 +21,17 @@ The thing the shader bundle does is lets people like me tinker with little tiny 
 My goal is to show you a demo, get you excited and then get you going.
 
 Here's whats happening. ReShade Shaders in use:
-  *  DELC_Sharpen@qUINT_sharp.fx
+  *  `DELC_Sharpen@qUINT_sharp.fx`
           ->>>> (Sharpens textures)
-  *  MXAO@qUINT_mxao.fx
+  *  `MXAO@qUINT_mxao.fx`
           ->>>> (Adds depth to flat textures by drawing darker outlines)
-  *  Bloom@qUINT_bloom.fx
+  *  `Bloom@qUINT_bloom.fx`
           ->>>> (The "magic" light effect where brighter things emit glowing light)
-  *  ADOF@qUINT_dof.fx
+  *  `ADOF@qUINT_dof.fx`
           ->>>> (Depth of field... not enabled for video demo because it's hard to make useful)
-  *  DisplayDepth@DisplayDepth.fx
+  *  `DisplayDepth@DisplayDepth.fx`
           ->>>> (Core utility shader to ReShade. I show how to use this for calibration in the demo video, but it's turned off during gameplay)
-  * --->  RTGlobalIllumination@qUINT_rtgi.fx  <---
+  *  `RTGlobalIllumination@qUINT_rtgi.fx `
               ->>>> (THE Ray Tracing shader. More on this below.)
 
 The qUINT ones can be retrieved from https://github.com/martymcmodding/qUINT/tree/master/Shaders if you missed them when you install reshade. The have everything above except:
