@@ -20,8 +20,6 @@ I found a developer who has shaders that ReShade automatically suggest when you 
 The thing the shader bundle does is lets people like me tinker with little tiny numbers for hours to product a replicable ReShade configuration file that you can customize further to fit your personal aesthetic.
 My goal is to show you a demo, get you excited and then get you going.
 
-DEMO VIDEO: https://studio.youtube.com/video/5TVXPH093gE/edit (Sorry I'm quiet, I don't know what I'm doing.)
-
 Here's whats happening. ReShade Shaders in use:
   *  DELC_Sharpen@qUINT_sharp.fx
           ->>>> (Sharpens textures)
