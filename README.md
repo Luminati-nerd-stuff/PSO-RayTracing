@@ -45,7 +45,7 @@ Strong recommend.
 1a. All of this is info provided as-is and use at your own risk. Not sure what all the risks are, so that's why I said that.
 2. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases -- It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
 3. Install the modded ReShade to the PSOBB exe directory. Make sure to select the qUNIT ones, the rest is up to you. I tested against Ephinea (private PSO server with a great community) but it should work on any PSOBB version for PC.
-4. You will need to drop the Dx8toDx9 dll (it's just called d38.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
+4. You will need to drop the Dx8toDx9 dll (it's just called d3d8.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
     (4a). Now the hardest part. You need to learn how all these modules work to even get anything to start happening on your screen...
 5. Just kidding this is the easy part. Download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
 
