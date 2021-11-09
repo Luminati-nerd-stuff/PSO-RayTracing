@@ -30,12 +30,13 @@ Here's whats happening. ReShade Shaders in use:
   *  `RTGlobalIllumination@qUINT_rtgi.fx `
               ->>>> (THE Ray Tracing shader. More on this below.)
 
-The qUINT ones can be retrieved from https://github.com/martymcmodding/qUINT/tree/master/Shaders if you missed them when you install reshade. The have everything above except:
+The qUINT ones can be retrieved from https://github.com/martymcmodding/qUINT/tree/master/Shaders if you missed them when you install reshade.
+Update: I have included all the shaders except the following one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
 
 **RTGI (RTGlobalIllumination)**
 
 You may have noticed all shaders except DisplayDepth are named "qUINT_", including the RTGlobalIllumination (or RTGI) shader.
-Right now, this shader is going to set to back $5. One time, or if you want beta updates and other cool shaders from the same dev... here's the Patreon: https://www.patreon.com/mcflypg
+Right now, this shader is going to set you back $5. One time, or if you want beta updates and other cool shaders from the same dev... here's the Patreon: https://www.patreon.com/mcflypg
 I am no relation. But there's a Discord for people playing with using this RTGI shader in all kinds of games and sharing their results.
 Strong recommend.
 
@@ -43,10 +44,11 @@ Strong recommend.
 
 1. Have an NVIDIA RTX card. AFAIK this only works on an RTX card.
 1a. All of this is info provided as-is and use at your own risk. Not sure what all the risks are, so that's why I said that.
-2. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases -- It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
-3. Install the modded ReShade to the PSOBB exe directory. Make sure to select the qUNIT ones, the rest is up to you. I tested against Ephinea (private PSO server with a great community) but it should work on any PSOBB version for PC.
-4. You will need to drop the Dx8toDx9 dll (it's just called d3d8.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
-    (4a). Now the hardest part. You need to learn how all these modules work to even get anything to start happening on your screen...
+~~2. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases -- It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
+~3. Install the modded ReShade to the PSOBB exe directory. Make sure to select the qUNIT ones, the rest is up to you. I tested against Ephinea (private PSO server with a great community) but it should work on any PSOBB version for PC.
+~4. You will need to drop the Dx8toDx9 dll (it's just called d3d8.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
+    (4a). Now the hardest part. You need to learn how all these modules work to even get anything to start happening on your screen...~~
+2-4. Just download this: I have included all the shaders except the following one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
 5. Just kidding this is the easy part. Download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
 
 That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile and... if you've done everything right and stars align
