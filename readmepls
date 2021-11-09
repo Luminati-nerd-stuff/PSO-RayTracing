@@ -34,17 +34,23 @@ Strong recommend.
 
 **Special considerations and installation**
 1. Have an NVIDIA RTX card. AFAIK this only works on an RTX card.
-2. Download the modded version of ReShade that disables the network buffer overflow. It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
+2. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases -- It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
 3. Install the modded ReShade to the PSOBB exe directory. Make sure to select the qUNIT ones, the rest is up to you. I tested against Ephinea (private PSO server with a great community) but it should work on any PSOBB version for PC.
-4. You will need to drop the Dx8toDx9 dll (it's just called d38.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two.
-5. Now the hardest part. You need to download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
+4. You will need to drop the Dx8toDx9 dll (it's just called d38.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
+    (4a). Now the hardest part. You need to learn how all these modules work to even get anything to start happening on your screen...
+5. Just kidding this is the easy part. Download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
 
-That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile and... if you've done everything right and I didn't do a bad job explaining my setup, 
-Anyway point is I'll update this as it needs to be.
+That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile and... if you've done everything right and stars align
 
 **UNKNOWNS!!**
-1. I don't know how to fix symbol chats. They are like 100 suns but still mostly readable. It's the Bloom shader, but I can't fix it, see me if you have questions. Maybe we can solve it together.
-2. I don't know how this will run at different resolutions and all that stuff. I tested this on a RTX 2080 Super, not a fantastic CPU, and I think 16mb of RAM. Solid state drives.
-3. Just adding onto #2, your results may vary. I just discovered the PSO community, and this version of the DC game, and the shaders kind of all at once. I'm learning!
+1. I don't know how to fix symbol chats. They are like 100 suns brightness because of their zindex and brightness, but still mostly readable. It's the Bloom shader, but I can't fix it, see me if you have questions. Maybe we can solve it together.
+2. I don't know how this will run at different resolutions and all that stuff. I tested this on a RTX 2080 Super, not a fantastic CPU, and I think 16mb of RAM. Solid state drives. You may have to adjust stuff or turn things up or off to fit your tastes.
+3. Just adding onto #2, your results may vary (like in general). Not just with with this ridiculous graphics thing youre considering, but in real life too. I just discovered the PSO community, and this version of the DC game, and the shaders kind of all at once. I'm learning!
 
 I'll update as needed.
+"Life is Chaos, be kind."
+
+**SPECIAL THANKS**
+CashCashish on Ephinea, who turned me onto doing this being possible in the first place.
+The devs behind the linked repos above, and the RTGI shader dev. Go sign up and get that shader if you have an RTX card and want to play with games like this.
+All the kind folks on Ephinea's discord, and the Patreon dev's discord, and Echelon's posts on Pioneer2.net's forums. All very useful info!!
