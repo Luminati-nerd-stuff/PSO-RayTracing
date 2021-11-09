@@ -44,12 +44,10 @@ Strong recommend.
 
 1. Have an NVIDIA RTX card. AFAIK this only works on an RTX card.
 1a. All of this is info provided as-is and use at your own risk. Not sure what all the risks are, so that's why I said that.
-~~2. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases -- It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
-~3. Install the modded ReShade to the PSOBB exe directory. Make sure to select the qUNIT ones, the rest is up to you. I tested against Ephinea (private PSO server with a great community) but it should work on any PSOBB version for PC.
-~4. You will need to drop the Dx8toDx9 dll (it's just called d3d8.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
-    (4a). Now the hardest part. You need to learn how all these modules work to even get anything to start happening on your screen...~~
-2-4. Just download this: I have included all the shaders except the following one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
-5. Just kidding this is the easy part. Download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
+
+2. Just download this: I have included all the shaders except the following one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
+
+3. Download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
 
 That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile and... if you've done everything right and stars align
 
@@ -77,3 +75,11 @@ All the kind folks on Ephinea's discord, and the Patreon dev's discord, and Eche
 And now at the end of this v1 3-day whirlwind journey, I just discovered a whole thread about this over here as well and ZabaZu and company: https://www.phantasystaronline.net/forum/index.php?/topic/27191-reshade-for-psobb-optional-screen-space-ray-traced-global-illumination/
 
 I'd like to compare notes and try different settings to really dial in a small handful of fun presets: psychedelic, blurry mode... idk.
+
+
+
+**Stuff you bypass with the zip file:**
+2. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases -- It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
+3. Install the modded ReShade to the PSOBB exe directory. Make sure to select the qUNIT ones, the rest is up to you. I tested against Ephinea (private PSO server with a great community) but it should work on any PSOBB version for PC.
+4. You will need to drop the Dx8toDx9 dll (it's just called d3d8.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
+    (4a). Now the hardest part. You need to learn how all these modules work to even get anything to start happening on your screen...
