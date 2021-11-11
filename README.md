@@ -16,39 +16,47 @@ The thing the shader bundle does is lets people like me tinker with little tiny 
 
 My goal is to show you a demo, get you excited and then get you going.
 
-Here's whats happening. ReShade Shaders in use:
-  *  `DELC_Sharpen@qUINT_sharp.fx`
-          ->>>> (Sharpens textures)
+Here's whats happening. ReShade Shaders referenced in the ini but unused:
+
   *  `MXAO@qUINT_mxao.fx`
           ->>>> (Adds depth to flat textures by drawing darker outlines)
-  *  `Bloom@qUINT_bloom.fx`
-          ->>>> (The "magic" light effect where brighter things emit glowing light)
   *  `ADOF@qUINT_dof.fx`
           ->>>> (Depth of field... not enabled for video demo because it's hard to make useful)
+
+Utility shader for figuring out depth buffer (not needed unless you are tweaking things):
+
   *  `DisplayDepth@DisplayDepth.fx`
           ->>>> (Core utility shader to ReShade. I show how to use this for calibration in the demo video, but it's turned off during gameplay)
+
+Shaders in active use:
+  *  `DELC_Sharpen@qUINT_sharp.fx`
+          ->>>> (Sharpens textures)
+  *  `Bloom@qUINT_bloom.fx`
+          ->>>> (The "magic" light effect where brighter things emit glowing light)
+
+I have included all the shaders above except the following one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
+
   *  `RTGlobalIllumination@qUINT_rtgi.fx `
               ->>>> (THE Ray Tracing shader. More on this below.)
 
-The qUINT ones can be retrieved from https://github.com/martymcmodding/qUINT/tree/master/Shaders if you missed them when you install reshade.
-Update: I have included all the shaders except the following one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
-
 **RTGI (RTGlobalIllumination)**
 
-You may have noticed all shaders except DisplayDepth are named "qUINT_", including the RTGlobalIllumination (or RTGI) shader.
-Right now, this shader is going to set you back $5. One time, or if you want beta updates and other cool shaders from the same dev... here's the Patreon: https://www.patreon.com/mcflypg
-I am no relation. But there's a Discord for people playing with using this RTGI shader in all kinds of games and sharing their results.
+You may have noticed all shaders except DisplayDepth are named "qUINT_", including the RTGlobalIllumination (or RGTI) shader. Right now, the RGTI shader is going to set you back $5 one time, or if you want beta updates and other cool shaders from the same dev... here's the Patreon: https://www.patreon.com/mcflypg -> I am no relation. But there's a Discord for people playing with using this RTGI shader in all kinds of games and sharing their results.
 Strong recommend.
 
 **SETUP**
 
-1. Have an NVIDIA RTX card. AFAIK this only works on an RTX card. All of this is info provided as-is and use at your own risk. Not sure what all the risks are, so that's why I said that.
+1. Grab reshade-shaders.zip above or go get the shaders from their sources. Don't forget the key shader requires you go sign up for the dev's Patreon.
 
-2. Just download this: I have included all the shaders except the RTGlobalIllumination one here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
+2. Get the DX8to9 DLL from https://github.com/crosire/d3d8to9/releases and put it in the root of the PSOBB directory, overwriting the default. Feel free to back anything up at any time. We're all adults here.
 
-3. Download the PSO-RayTracing-v[X].ini file in this repo and slap that bad boy in the root with online.exe and psobb.exe. You know the spot.
+3. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases. It's required for this game to bypass the reshade network buffer overflow. Install it, targeting online.exe, and using DX9.
 
-That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile and... if you've done everything right and stars align
+4. Unpack the shaders and put them in the reshade-shaders directory in the PSOBB folder.
+
+5. Download the PSO-RayTracing-v[X].ini file in this repo and put it in the root with online.exe and psobb.exe.
+
+That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile. It;s still worth learning how it works, especially if you want to tweak things from this point.
 
 **UNKNOWNS!!**
 
@@ -58,9 +66,6 @@ That's it, you should be able to launch ReShade when you start PSOBB and select 
 
 I'll update as needed.
 "Life is Chaos, be kind."
-
-
-
 
 
 **SPECIAL THANKS**
@@ -74,11 +79,3 @@ All the kind folks on Ephinea's discord, and the Patreon dev's discord, and Eche
 And now at the end of this v1 3-day whirlwind journey, I just discovered a whole thread about this over here as well and ZabaZu and company: https://www.phantasystaronline.net/forum/index.php?/topic/27191-reshade-for-psobb-optional-screen-space-ray-traced-global-illumination/
 
 I'd like to compare notes and try different settings to really dial in a small handful of fun presets: psychedelic, blurry mode... idk.
-
-
-
-**Stuff you bypass with the zip file:**
-2. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases -- It's required if you dont want flickering. And you don't want flickering. Just saving you 5 hours there. I'll include the link if I can remember it, or if someone telle me.
-3. Install the modded ReShade to the PSOBB exe directory. Make sure to select the qUNIT ones, the rest is up to you. I tested against Ephinea (private PSO server with a great community) but it should work on any PSOBB version for PC.
-4. You will need to drop the Dx8toDx9 dll (it's just called d3d8.dll from here: https://github.com/crosire/d3d8to9/releases). ReShade needs DirectX 9, and that dll is the API that connects the two. This also hung me up for a bit.
-    (4a). Now the hardest part. You need to learn how all these modules work to even get anything to start happening on your screen...
