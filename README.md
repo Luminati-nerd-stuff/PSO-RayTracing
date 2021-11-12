@@ -52,7 +52,7 @@ Strong recommend.
 
 3. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases. It's required for this game to bypass the reshade network buffer overflow. Install it, targeting online.exe, and using DX9.
 
-4. Unpack the shaders and put them in the reshade-shaders directory in the PSOBB folder.
+4. Unpack the shaders and put them in the reshade-shaders directory in the PSOBB folder. If there's no reshade-shaders directory, make sure you installed ReShade (the modded one) in step 3 first. If you did that, just make the directory named reshade-shaders and put the contents of the zip in there.
 
 5. Download the PSO-RayTracing-v[X].ini file in this repo and put it in the root with online.exe and psobb.exe.
 
@@ -61,7 +61,9 @@ That's it, you should be able to launch ReShade when you start PSOBB and select 
 **UNKNOWNS!!**
 
 1. I don't know how to fix symbol chats. They are like 100 suns brightness because of their zindex and brightness, but still mostly readable. It's the Bloom shader, but I can't fix it, see me if you have questions. Maybe we can solve it together.
+
 2. I don't know how this will run at different resolutions and all that stuff. I tested this on a RTX 2080 Super, not a fantastic CPU, and I think 16mb of RAM. Solid state drives. You may have to adjust stuff or turn things up or off to fit your tastes.
+
 3. Just adding onto #2, your results may vary (like in general). Not just with with this ridiculous graphics thing youre considering, but in real life too. I just discovered the PSO community, and this version of the DC game, and the shaders kind of all at once. I'm learning!
 
 I'll update as needed.
