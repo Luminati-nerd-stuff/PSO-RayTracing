@@ -2,6 +2,7 @@
 Hi, I spent some time and created a custom Ray Tracing profile profile for PSO Blue Burst. Here's how I did it.
 
 The video demo: https://www.youtube.com/watch?v=5TVXPH093gE (Sorry I'm quiet, I don't know what I'm doing.)
+NOTE: this is a little old now, the new settings are much better.
 
 Hello, friend.
 
@@ -62,7 +63,10 @@ Strong recommend.
 That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile. It;s still worth learning how it works, especially if you want to tweak things from this point.
 
 **TROUBLESHOOTING**
-1. Make sure you set the depth buffer in reshade (under the d3d9 tab). You might have to use the DisplayDepth shader to see if its detecting depth as you try the different depth buffers with your monitor resolution to find the right one. It can be a little tricky.
+
+1. https://imgur.com/a/6ZMwOao <--- check out the settings im using.
+
+2. Make sure you set the depth buffer in reshade (under the d3d9 tab). You might have to use the DisplayDepth shader to see if its detecting depth as you try the different depth buffers with your monitor resolution to find the right one. It can be a little tricky.
 
 **UNKNOWNS!!**
 
