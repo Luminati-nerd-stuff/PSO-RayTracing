@@ -48,7 +48,7 @@ Strong recommend.
 
 1. Grab reshade-shaders.zip above or go get the shaders from their sources. Don't forget the key shader requires you go sign up for the dev's Patreon.
 
-2. Get the DX8to9 DLL from https://github.com/crosire/d3d8to9/releases and put it in the root of the PSOBB directory, overwriting the default. Feel free to back anything up at any time. We're all adults here.
+2. Get the DX8to9 DLL named "d3d8.dll" from https://github.com/crosire/d3d8to9/releases and put it in the root of the PSOBB directory, overwriting the default. Feel free to back anything up at any time. We're all adults here. This file makes PSOBB DX9, which lets reshade work.
 
 3. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases. It's required for this game to bypass the reshade network buffer overflow. Install it, targeting online.exe, and using DX9.
 
