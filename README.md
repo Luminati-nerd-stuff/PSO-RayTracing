@@ -91,3 +91,18 @@ All the kind folks on Ephinea's discord, and the Patreon dev's discord, and Eche
 And now at the end of this v1 3-day whirlwind journey, I just discovered a whole thread about this over here as well and ZabaZu and company: https://www.phantasystaronline.net/forum/index.php?/topic/27191-reshade-for-psobb-optional-screen-space-ray-traced-global-illumination/
 
 I'd like to compare notes and try different settings to really dial in a small handful of fun presets: psychedelic, blurry mode... idk.
+
+**SIDE BY SIDES (V2.2)**
+
+PIONEER 2
+https://imgsli.com/ODEzMDQ
+https://imgsli.com/ODEzMDY
+https://imgsli.com/ODEzMDg
+https://imgsli.com/ODEzMDk
+https://imgsli.com/ODEzMTE
+https://imgsli.com/ODEzMTI
+https://imgsli.com/ODEzMTM
+https://imgsli.com/ODEzMTQ
+
+FOREST
+https://imgsli.com/ODEzMTk
