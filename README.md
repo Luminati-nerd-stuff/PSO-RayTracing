@@ -95,14 +95,14 @@ I'd like to compare notes and try different settings to really dial in a small h
 **SIDE BY SIDES (V2.2)**
 
 PIONEER 2
-https://imgsli.com/ODEzMDQ
-https://imgsli.com/ODEzMDY
-https://imgsli.com/ODEzMDg
-https://imgsli.com/ODEzMDk
-https://imgsli.com/ODEzMTE
-https://imgsli.com/ODEzMTI
-https://imgsli.com/ODEzMTM
-https://imgsli.com/ODEzMTQ
+- https://imgsli.com/ODEzMDQ
+- https://imgsli.com/ODEzMDY
+- https://imgsli.com/ODEzMDg
+- https://imgsli.com/ODEzMDk
+- https://imgsli.com/ODEzMTE
+- https://imgsli.com/ODEzMTI
+- https://imgsli.com/ODEzMTM
+- https://imgsli.com/ODEzMTQ
 
 FOREST
-https://imgsli.com/ODEzMTk
+- https://imgsli.com/ODEzMTk
