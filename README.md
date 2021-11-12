@@ -52,7 +52,10 @@ Strong recommend.
 
 3. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases. It's required for this game to bypass the reshade network buffer overflow. Install it, targeting online.exe, and using DX9. Don't set up any default shaders is my suggestion, my zip has the ones you need except RGTI.
 
-4. Unpack the shaders and put them in the reshade-shaders directory in the PSOBB folder. If there's no reshade-shaders directory, make sure you installed ReShade (the modded one) in step 3 first. If you did that, just make the directory named reshade-shaders and put the contents of the zip in there.
+4. Unpack the shaders and put them in the reshade-shaders directory in the PSOBB folder. If there's no reshade-shaders directory, make sure you installed ReShade (the modded one) in step 3 first. If you did that, just make the directory named reshade-shaders and put the contents of the zip in there. In the Reshade install or edit, you can hit "edit ReShade settings" and make sure:
+-> Preset is .\PSO-RayTracing[whatever version is].ini
+-> Effect path, Texture path is set as such: [Drive]:\Users\[user]\reshade-shaders\Shaders\ and [Drive]:\Users\[user]\reshade-shaders\Textures
+-> Leave the rest unchecked, you can enable fps/clock/performance mode in reshade in the game.
 
 5. Download the PSO-RayTracing-v[X].ini file in this repo and put it in the root with online.exe and psobb.exe.
 
