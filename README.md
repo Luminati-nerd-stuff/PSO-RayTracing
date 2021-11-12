@@ -61,6 +61,9 @@ Strong recommend.
 
 That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile. It;s still worth learning how it works, especially if you want to tweak things from this point.
 
+**TROUBLESHOOTING**
+1. Make sure you set the depth buffer in reshade (under the d3d9 tab). You might have to use the DisplayDepth shader to see if its detecting depth as you try the different depth buffers with your monitor resolution to find the right one. It can be a little tricky.
+
 **UNKNOWNS!!**
 
 1. I don't know how to fix symbol chats. They are like 100 suns brightness because of their zindex and brightness, but still mostly readable. It's the Bloom shader, but I can't fix it, see me if you have questions. Maybe we can solve it together.
