@@ -46,9 +46,9 @@ Strong recommend.
 
 **SETUP**
 
-1. Grab reshade-shaders.zip above or go get the shaders from their sources. Don't forget the key shader requires you go sign up for the dev's Patreon.
+1. Download my latest shader pack which includes everything except RTGI from here: https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip , or go get the shaders from their sources. I didn't write any of them. Don't forget the ray tracing shader (RGTI) requires you go sign up for the dev's Patreon.
 
-2. Get the DX8to9 DLL named "d3d8.dll" from https://github.com/crosire/d3d8to9/releases and put it in the root of the PSOBB directory, overwriting the default. Feel free to back anything up at any time. We're all adults here. This file makes PSOBB DX9, which lets reshade work.
+2. If you have a file named "d3d9.dll" in the root of your PSOBB folder, you can probably skip this step. If you instead have "d3d8.dll" in there, or the default that comes with Ephinea is dinput8.dll...  Go get the latest DX8to9 dll file named "d3d8.dll" from https://github.com/crosire/d3d8to9/releases and put it in the root of the PSOBB directory, overwriting the default if you're asked. Feel free to back anything up at any time. This file makes PSOBB DX9, which lets reshade work.
 
 3. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases. It's required for this game to bypass the reshade network buffer overflow. Install it, targeting online.exe, and using DX9.
 
