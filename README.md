@@ -50,7 +50,7 @@ Strong recommend.
 
 2. If you have a file named "d3d9.dll" in the root of your PSOBB folder, you can probably skip this step. If you instead have "d3d8.dll" in there, or the default that comes with Ephinea is dinput8.dll...  Go get the latest DX8to9 dll file named "d3d8.dll" from https://github.com/crosire/d3d8to9/releases and put it in the root of the PSOBB directory, overwriting the default if you're asked. Feel free to back anything up at any time. This file makes PSOBB DX9, which lets reshade work.
 
-3. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases. It's required for this game to bypass the reshade network buffer overflow. Install it, targeting online.exe, and using DX9.
+3. Download the modded version of ReShade that disables the network buffer overflow: https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases. It's required for this game to bypass the reshade network buffer overflow. Install it, targeting online.exe, and using DX9. Don't set up any default shaders is my suggestion, my zip has the ones you need except RGTI.
 
 4. Unpack the shaders and put them in the reshade-shaders directory in the PSOBB folder. If there's no reshade-shaders directory, make sure you installed ReShade (the modded one) in step 3 first. If you did that, just make the directory named reshade-shaders and put the contents of the zip in there.
 
