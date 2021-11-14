@@ -1,0 +1,49 @@
+This file is for native Japanese speakers as of version 2.2.
+このファイルは、Ver.2.2時点では日本語を母国語とする人向けです。
+Thanks, ジュフカ!
+
+セットアップ
+
+RTGI以外のすべてを含む最新のシェーダーパックをこちらからダウンロードしてください。
+
+①<d3d8.dll>
+
+https://github.com/crosire/d3d8to9/releases 
+このファイルはPSOBBをDX9にして、reshadeを動作させます。
+上記から「d3d8.dll」という名前の最新の DX8to9 dll ファイルを取得し、PSOBB ディレクトリのルートに置いてください。
+
+*PSOBBフォルダのルートに "d3d9.dll "というファイルがある場合は、このステップをスキップ可能な場合もあります*
+　うまくいかない時は、上記から「d3d8.dll」という名前の最新の DX8to9 dll ファイルを取得し、PSOBB ディレクトリのルートに置いてください。
+いつでも自由にバックアップを取ることはできます。
+
+②<ReShade.4.9.1.Modded.exe>
+
+https://github.com/Not-Smelly-Garbage/Reshade-Unlocked/releases
+ネットワークバッファオーバーフローを無効にするReShadeの改造版をダウンロードしてください
+このゲームでreshadeのネットワークバッファオーバーフローを回避するために必要です。
+それをインストール後、起動し、online.exeを選択して、DX9を使用してください。
+
+③<reshade-shaders>
+https://github.com/Luminati-nerd-stuff/PSO-RayTracing-v1.0/blob/main/reshade-shaders.zip
+または、シェーダーのソースから入手してください。
+私のzipにはRGTI以外の必要なシェーダーが入っています。
+シェーダーを解凍して、PSOBBフォルダ内のreshade-shadersディレクトリに入れてください。
+reshade-shadersディレクトリがない場合は、ReShade（modedの方）をインストールしたかどうかを確認してください。
+それでも自動生成されてない場合は、reshade-shadersという名前のディレクトリを作って、そこにzipの中身を入れればOKです。
+Reshadeのインストールまたは編集で、「Edit ReShade settings」を押して、次のことを確認してください。
+<Preset>\-RayTracing[what any version is].ini
+< Effect path> i: [Drive]:Users[user]:Shaders
+<Texture path>\ [Drive]:Users[user]:Textures
+残りの項目はチェックしないでおくと、ゲーム中のリシェードでfps/clock/performance modeを有効にすることができます。
+
+④<PSO-RayTracing-v[X].ini>
+このレスにあるPSO-RayTracing-v[X].iniファイルをダウンロードして、online.exeとpsobb.exeと一緒にルートに置いてください。
+
+以上で、導入完了です。
+PSOBBを起動して「PSO-RayTracing-v[X]」のプロファイルを選択すると、ReShadeが起動できるようになります。
+手を加えたいと思っている方には、仕組みを学ぶ必要があります。
+
+
+<RGTI>
+私が作成したものではありませんので、
+レイトレーシング・シェーダー（RGTI）は、開発者のPatreonにサインアップする必要があることを忘れないでください。
