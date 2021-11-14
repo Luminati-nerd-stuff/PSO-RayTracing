@@ -108,3 +108,5 @@ FOREST
 
 EP4
 - https://imgsli.com/ODE0Nzk
+
+LSD.ini is a fun weird alternative set of parameters for these shaders with soem wacky effects. You can switch between presets and stuff in ReShade.
