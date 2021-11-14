@@ -1,8 +1,7 @@
 # PSO-RayTracing
-Hi, I spent some time and created a custom Ray Tracing profile profile for PSO Blue Burst. Here's how I did it.
+Hi, I spent some time and created a custom Ray Tracing profile profile for PSO Blue Burst. Here's how I did it and how you can use it yourself. You don't need any special hardware. IF you can run this game, you should be able to add ray tracing to it for $5 and the time it takes to follow this guide.
 
-The video demo: https://www.youtube.com/watch?v=5TVXPH093gE (Sorry I'm quiet, I don't know what I'm doing.)
-NOTE: this is a little old now, the new settings are much better.
+The video demo (1.0 settings -- currently 2.2 and much better): https://www.youtube.com/watch?v=5TVXPH093gE (Sorry I'm quiet, I don't know what I'm doing. New video later today (11/13/21).
 
 Hello, friend.
 
