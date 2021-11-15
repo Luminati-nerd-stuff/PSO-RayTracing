@@ -65,9 +65,7 @@ That's it, you should be able to launch ReShade when you start PSOBB and select 
 
 **TROUBLESHOOTING**
 
-1. https://imgur.com/a/6ZMwOao <--- check out the settings im using.
-
-2. Make sure you set the depth buffer in reshade (under the d3d9 tab). You might have to use the DisplayDepth shader to see if its detecting depth as you try the different depth buffers with your monitor resolution to find the right one. It can be a little tricky. Actually it's a lot tricky. Please recheck that you did step 6 above.
+Make sure you set the depth buffer in reshade (under the d3d9 tab). You might have to use the DisplayDepth shader to see if its detecting depth as you try the different depth buffers with your monitor resolution to find the right one. It can be a little tricky. Actually it's a lot tricky. Please recheck that you did step 6 above.
 
 **UNKNOWNS!!**
 
