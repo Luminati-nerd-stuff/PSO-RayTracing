@@ -59,13 +59,15 @@ Strong recommend.
 
 5. Download the PSO-RayTracing-v[X].ini file in this repo and put it in the root with online.exe and psobb.exe.
 
+6. When you load the game ReShade defaults to "Home" to launch the menu. You can pick the ini from the top. You may need to set the global processing parameters so I will save you a lot of headaches. Put this in [General] in the ReShade.ini (not my ini, the default reshade one), OR just read it and type the values in ReShade after clicking the button to edit the global preprocessing settings: PreprocessorDefinitions=RESHADE_DEPTH_LINEARIZATION_FAR_PLANE=5000,RESHADE_DEPTH_INPUT_IS_UPSIDE_DOWN=0,RESHADE_DEPTH_INPUT_IS_REVERSED=0,RESHADE_DEPTH_INPUT_IS_LOGARITHMIC=0
+
 That's it, you should be able to launch ReShade when you start PSOBB and select the "PSO-RayTracing-v[X]" profile. It;s still worth learning how it works, especially if you want to tweak things from this point.
 
 **TROUBLESHOOTING**
 
 1. https://imgur.com/a/6ZMwOao <--- check out the settings im using.
 
-2. Make sure you set the depth buffer in reshade (under the d3d9 tab). You might have to use the DisplayDepth shader to see if its detecting depth as you try the different depth buffers with your monitor resolution to find the right one. It can be a little tricky.
+2. Make sure you set the depth buffer in reshade (under the d3d9 tab). You might have to use the DisplayDepth shader to see if its detecting depth as you try the different depth buffers with your monitor resolution to find the right one. It can be a little tricky. Actually it's a lot tricky. Please recheck that you did step 6 above.
 
 **UNKNOWNS!!**
 
