@@ -1,4 +1,5 @@
-# PSO-RayTracing
+# PSO-RayTracing (No special hardware needed, if you can run the game and ReShade, you should be able to use my preset to get close and just tweak from there)
+
 Hi, I spent some time and created a custom ReShade profile using a number of shaders (but not too many...) to SIGNIFICANTLY improve PSO Blue Burst's visuals. Here's how I did it and how you can use it yourself. You don't need any special hardware. If you can run this game, you should be able to add ray tracing to it for $5 and the time it takes to follow this guide. The best part? Just hit Home on your keyboard and you can go tweak everything in the shaders using ReShade. Ping me on Discord if you get stuck or something your feedback has helped me improve this guide. I'm in the Ephinea Discord frequently.
 
 The video demo (1.0 settings -- currently 2.2 and much better): https://www.youtube.com/watch?v=5TVXPH093gE (Sorry I'm quiet, I don't know what I'm doing.) New video later today (11/13/21).
