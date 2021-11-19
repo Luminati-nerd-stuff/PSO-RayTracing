@@ -1,7 +1,6 @@
 # PSO-RayTracing (v2.9) (No special hardware needed)
-This file is for native Japanese speakers as of version 2.2
-このファイルは、バージョン2.2以降、日本語を母国語とする人のためのものです。: https://github.com/Luminati-nerd-stuff/PSO-RayTracing/blob/main/jp-setup
 
+このファイルは、バージョン2.2以降、日本語を母国語とする人のためのものです。: https://github.com/Luminati-nerd-stuff/PSO-RayTracing/blob/main/jp-setup
 
 Hi, I spent some time and created a custom ReShade profile using a number of shaders (but not too many...) to SIGNIFICANTLY improve PSO Blue Burst's visuals. Here's how I did it and how you can use it yourself. You don't need any special hardware. If you can run this game, you should be able to add ray tracing to it for $5 and the time it takes to follow this guide. The best part? Just hit Home on your keyboard and you can go tweak everything in the shaders using ReShade. Ping me on Discord if you get stuck or something your feedback has helped me improve this guide.
 
