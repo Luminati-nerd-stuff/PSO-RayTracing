@@ -1,21 +1,10 @@
-# PSO-RayTracing (No special hardware needed, if you can run the game and ReShade, you should be able to use my preset to get close and just tweak from there)
+# PSO-RayTracing (No special hardware needed)
+#
+#Hi, I spent some time and created a custom ReShade profile using a number of shaders (but not too many...) to SIGNIFICANTLY improve PSO Blue Burst's visuals. Here's how I did it and how you can use it yourself. You don't need any special hardware. If you can run this game, you should be able to add ray tracing to it for $5 and the time it takes to follow this guide. The best part? Just hit Home on your keyboard and you can go tweak everything in the shaders using ReShade. Ping me on Discord if you get stuck or something your feedback has helped me improve this guide.
 
-Hi, I spent some time and created a custom ReShade profile using a number of shaders (but not too many...) to SIGNIFICANTLY improve PSO Blue Burst's visuals. Here's how I did it and how you can use it yourself. You don't need any special hardware. If you can run this game, you should be able to add ray tracing to it for $5 and the time it takes to follow this guide. The best part? Just hit Home on your keyboard and you can go tweak everything in the shaders using ReShade. Ping me on Discord if you get stuck or something your feedback has helped me improve this guide. I'm in the Ephinea Discord frequently.
+Do you remember Phantasy Star Online? I think it was the first online multiplayer game for any console. I'll update this if i hear otherwise. Anyway, I love PSO. Not loved, love. It's fun, good gameplay loop, fun battle mechanics... and I have to say, in the age of Discord and private servers, amazing. All that said, I have an RTX 2080 "Super" if that matters. So not top of the line, and not the bottom. I like graphics, but i don't need the best to enjoy things. My problem with RTX is it's only in very specific games, because it takes time to implement. But when done correctly, see: Metro Exodus... it can add replay value and now your $60 game is worth twice as much enoyjoment.
 
-The video demo (1.0 settings -- currently 2.2 and much better): https://www.youtube.com/watch?v=5TVXPH093gE (Sorry I'm quiet, I don't know what I'm doing.) New video later today (11/13/21).
-
-Hello, friend.
-
-Do you remember Phantasy Star Online? I think it was the first online multiplayer game for any console. I'll update this if i hear otherwise.
-Anyway, I love PSO. Not loved, love. It's fun, good gameplay loop, fun battle mechanics... and I have to say, in the age of Discord and private servers, amazing.
-
-All that said, I have an RTX 2080 "Super" if that matters. So not top of the line, and not the bottom. I like graphics, but i don't need the best to enjoy things.
-My problem with RTX is it's only in very specific games, because it takes time to implement. But when done correctly, see: Metro Exodus... it can add replay value and now your $60 game is worth twice as much enoyjoment.
-
-I found a developer who has shaders that ReShade automatically suggest when you install it. They are the qUNIT batch of shaders.
-The thing the shader bundle does is lets people like me tinker with little tiny numbers for hours to product a replicable ReShade configuration file that you can customize further to fit your personal aesthetic.
-
-My goal is to show you a demo, get you excited and then get you going.
+I found a developer who has shaders that ReShade automatically suggest when you install it. They are the qUNIT batch of shaders. The thing the shader bundle does is lets people like me tinker with little tiny numbers for hours to product a replicable ReShade configuration file that you can customize further to fit your personal aesthetic. My goal is to show you a demo, get you excited and then get you going.
 
 Here's whats happening. ReShade Shaders referenced in the ini but unused:
 
