@@ -2,6 +2,8 @@
 
 このファイルは、バージョン2.2以降、日本語を母国語とする人のためのものです。: https://github.com/Luminati-nerd-stuff/PSO-RayTracing/blob/main/jp-setup
 
+Demo: https://www.youtube.com/watch?v=6FyUY3yrO4k
+
 Hi, I spent some time and created a custom ReShade profile using a number of shaders (but not too many...) to SIGNIFICANTLY improve PSO Blue Burst's visuals. Here's how I did it and how you can use it yourself. You don't need any special hardware. If you can run this game, you should be able to add ray tracing to it for $5 and the time it takes to follow this guide. The best part? Just hit Home on your keyboard and you can go tweak everything in the shaders using ReShade. Ping me on Discord if you get stuck or something your feedback has helped me improve this guide.
 
 Do you remember Phantasy Star Online? I think it was the first online multiplayer game for any console. I'll update this if i hear otherwise. Anyway, I love PSO. Not loved, love. It's fun, good gameplay loop, fun battle mechanics... and I have to say, in the age of Discord and private servers, amazing. All that said, I have an RTX 2080 "Super" if that matters. So not top of the line, and not the bottom. I like graphics, but i don't need the best to enjoy things. My problem with RTX is it's only in very specific games, because it takes time to implement. But when done correctly, see: Metro Exodus... it can add replay value and now your $60 game is worth twice as much enoyjoment.
