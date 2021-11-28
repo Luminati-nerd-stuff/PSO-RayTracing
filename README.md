@@ -107,3 +107,4 @@ EP4
 1. LSD.ini is a fun weird alternative set of parameters for these shaders with soem wacky effects. You can switch between presets and stuff in ReShade.
 2. I made a preset for Episode 3 on the DC through Dolphin emulation... https://imgsli.com/ODE3Mjc
 Just grab https://github.com/Luminati-nerd-stuff/PSO-RayTracing/blob/main/PSO3-Dolphin%20-The%20Card%20One.ini and use these globals for ReShade: PreprocessorDefinitions=RESHADE_DEPTH_LINEARIZATION_FAR_PLANE=10,RESHADE_DEPTH_INPUT_IS_UPSIDE_DOWN=0,RESHADE_DEPTH_INPUT_IS_REVERSED=0,RESHADE_DEPTH_INPUT_IS_LOGARITHMIC=0,RESHADE_DEPTH_INPUT_X_SCALE=1,RESHADE_DEPTH_INPUT_Y_SCALE=1.090,RESHADE_DEPTH_INPUT_X_PIXEL_OFFSET=0,RESHADE_DEPTH_INPUT_Y_PIXEL_OFFSET=-5,RESHADE_DEPTH_MULTIPLIER=1
+3. For Flycast/DCv2 likers... 
